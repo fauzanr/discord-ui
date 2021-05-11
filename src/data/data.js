@@ -1,105 +1,132 @@
 export const channels = [
   {
+    id: 1,
     type: 'text',
     name: 'welcome',
     group: 1,
   },
   {
+    id: 2,
     type: 'text',
     name: 'general-chat',
     group: 1,
   },
   {
+    id: 3,
     type: 'text',
     name: 'other-stuff',
     group: 1,
   },
   {
+    id: 4,
     type: 'voice',
     name: 'lobby',
     group: 2,
   },
   {
+    id: 5,
     type: 'voice',
     name: 'lounge',
     group: 2,
   },
   {
+    id: 6,
     type: 'voice',
     name: 'voice-room-1',
     group: 2,
   },
   {
+    id: 7,
     type: 'voice',
     name: 'voice-room-2',
     group: 2,
   },
   {
+    id: 8,
     type: 'voice',
     name: 'voice-room-3',
     group: 2,
   },
   {
+    id: 9,
     type: 'text',
     name: 'python',
     group: 3,
   },
   {
+    id: 10,
     type: 'text',
     name: 'javascript',
     group: 3,
   },
   {
+    id: 11,
     type: 'text',
     name: 'ruby',
     group: 3,
   },
   {
+    id: 12,
     type: 'text',
     name: 'vuejs',
     group: 3,
   },
   {
+    id: 13,
     type: 'voice',
     name: 'night-owl',
     group: 3,
   },
   {
+    id: 14,
     type: 'text',
     name: 'general-chat',
     group: 4,
   },
   {
+    id: 15,
     type: 'voice',
     name: 'pubg',
     group: 4,
   },
   {
+    id: 16,
     type: 'voice',
     name: 'no-chicken-no-cleep',
     group: 4,
   },
   {
+    id: 17,
     type: 'voice',
     name: 'monopoly',
     group: 4,
   },
   {
+    id: 18,
     type: 'voice',
     name: 'room-1',
     group: 4,
   },
   {
+    id: 19,
     type: 'voice',
     name: 'room-2',
     group: 4,
   },
   {
+    id: 20,
     type: 'voice',
     name: 'room-3',
     group: 4,
   },
   {
+    id: 21,
+    type: 'text',
+    name: 'this-is-a-very-long-channel-name',
+    group: 5,
+  },
+  {
+    id: 22,
     type: 'voice',
     name: 'random-room',
     group: 5,
@@ -178,5 +205,12 @@ export const users = [
     role: 'member',
     status: null,
     online: false,
+  },
+]
+
+export const servers = [
+  {
+    id: 1,
+    name: 'My Server',
   },
 ]

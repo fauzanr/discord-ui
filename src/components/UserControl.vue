@@ -3,7 +3,7 @@
     <div class="rounded-full flex-none bg-green-400 w-8 h-8 mr-2"></div>
     <div class="flex-grow truncate">
       <p class="text-sm font-bold truncate">fauzanr</p>
-      <p class="text-xs font-bold text-txt2">#0924</p>
+      <p class="text-xs font-bold text-txt2">#0876</p>
     </div>
     <div class="flex flex-none">
       <button class="focus:outline-none clickable-highlight p-1">
