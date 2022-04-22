@@ -9,7 +9,8 @@
     <div
       v-for="server in servers"
       :key="server.id"
-      class="rounded-full flex items-center justify-center flex-none bg-gray-700 w-12 h-12"
+      class="rounded-full flex items-center justify-center flex-none w-12 h-12"
+      :class="[getBgColor()]"
       @click="$store.dispatch('setCurrentServer', { ...server })"
     >
       <h1 class="font-bold tracking-widest">
@@ -20,6 +21,7 @@
 </template>
 
 <script>
+import { getRandomColor } from "../utils/util";
 export default {
   name: "ServerListTab",
   data() {
@@ -27,9 +29,9 @@ export default {
       servers: [],
       defaultServer: {
         id: 0,
-        name: 'My Server',
-        initial: 'MS',
-      }
+        name: "My Server",
+        initial: "MS",
+      },
     };
   },
   mounted() {
@@ -49,6 +51,9 @@ export default {
       const names = name.split(" ");
       const initials = names.map((n) => n[0]);
       return initials.join("").toUpperCase();
+    },
+    getBgColor() {
+      return "bg-" + getRandomColor();
     },
   },
 };

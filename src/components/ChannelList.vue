@@ -10,13 +10,10 @@
           v-if="channel.group == group.id"
           :type="channel.type"
           :channelName="channel.name"
-          :isActive="
-            $store.state.currentChannel.name === channel.name &&
-            $store.state.currentChannel.id === channel.id
-          "
+          :isActive="$store.state.currentChannel.id === channel.id"
           @click="
             channel.type === 'text' &&
-              $store.dispatch('setCurrentChannel', channel)
+              $store.dispatch('changeCurrentChannel', channel.id)
           "
         />
       </template>
