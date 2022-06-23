@@ -44,13 +44,6 @@ export const channels = [
         id: generateId(),
         admin: true,
         user: "fauzanr",
-        message:
-          "Lorem ipsum dolor sit, amet consectetur adipisicing elit, eligendi officiis similique quos dolore possimus tempora voluptatum!",
-      },
-      {
-        id: generateId(),
-        admin: true,
-        user: "fauzanr",
         message: "Lorem ipsum dolor sit, tempora voluptatum!",
       },
     ],
