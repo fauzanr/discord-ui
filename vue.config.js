@@ -1,3 +1,1 @@
-module.exports = {
-  publicPath: 'discord-ui'
-}
+module.exports = {}
